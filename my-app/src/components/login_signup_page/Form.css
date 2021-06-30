@@ -1,0 +1,77 @@
+:root{
+    --blue: #0091ff;
+}
+form{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--blue);
+    color: white;
+    height: 70%; 
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+label{
+    position: absolute;
+    left: 30%;
+}
+#lb1{
+    position: absolute;
+    top: 30%;
+}
+#lb2{
+    position: absolute;
+    top: 45%;
+}
+#lb3{
+    position: absolute;
+    top: 60%;
+}
+input{
+    border-radius: 5px;
+    height: 123%;
+    padding: 0px 0px 0px 5px;
+}
+input[name=email]{
+    position: absolute;
+    left: 185%;
+    bottom: 0.5%;
+}
+input[name=password]{
+    position: absolute;
+    left: 157%;
+    bottom: 0.5%;
+}
+input[name=confirmation]{
+    position: absolute;
+    left: 120%;
+    bottom: 0.5%;
+}
+form>button{
+    position: absolute;
+    left: 29.5%;
+    top: 75%;
+    height: 7%;
+    width: 40%;
+    cursor: pointer;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    color: var(--blue);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+form>button :hover{
+    background-color: #e6fcfc;
+}
+.ErrorMessage{
+    position: absolute;
+    left: 38%;
+    top: 20%;
+    font-size: 13pt;
+    color: black;
+}

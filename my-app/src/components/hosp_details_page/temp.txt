@@ -1,0 +1,9 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyAdnqchc8SRjbaD3gMBh4p0jg8wTxm2wh8",
+    authDomain: "demoproj1-846af.firebaseapp.com",
+    projectId: "demoproj1-846af",
+    storageBucket: "demoproj1-846af.appspot.com",
+    messagingSenderId: "1082216983518",
+    appId: "1:1082216983518:web:d9d39498dc384ee2d34b4f",
+    measurementId: "G-EDCSK9Z04M"
+};

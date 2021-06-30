@@ -1,0 +1,11 @@
+:root{
+--blue: #0091ff;
+--verylightblue: #e6fcfc;
+}
+body{
+  background-color: #e6fcfc;
+}
+.App {
+  background-color: red;
+  color: white;
+}

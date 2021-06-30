@@ -1,0 +1,18 @@
+:root{
+    --blue: #0091ff;
+    --verylightblue: #e6fcfc;
+}
+
+.FormOption{
+    position: absolute;
+    color: var(--blue);
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.FormOption:hover{
+    background-color: var(--verylightblue);
+}
